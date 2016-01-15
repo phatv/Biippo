@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="horizontal">
+
+    <ImageButton
+        android:id="@+id/bippo"
+        android:background="@drawable/hippolauncher"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:scaleX=".6"
+        android:scaleY="1"
+        />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_centerVertical="true"
+        android:layout_toRightOf="@+id/bippo"
+        android:text="Biippo"
+        android:textStyle="bold"
+        android:textColor="#000000"
+        android:id="@+id/action_bar_title"
+        android:textSize="21sp" />
+
+
+</RelativeLayout>
